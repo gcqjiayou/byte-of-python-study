@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [介绍](README.md)
 * [献词](02.献词.md)
 * [前言](03.1.前言.md)
 * [关于 Python](04.关于Python.md)
