@@ -18,4 +18,15 @@
         "anchors-zhcn"
     ],
     "pluginsConfig": {}
+    "pdf": {
+       "pageNumbers": true,
+       "fontSize": 18,
+       "fontFamily":"Source Han Sans","Microsoft YaHei","微软雅黑",
+      "paperSize": "a4",
+      "margin": {
+      "right": 30,
+      "left": 30,
+      "top": 30,
+      "bottom": 50
+    }
 }
