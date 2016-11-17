@@ -14,7 +14,8 @@
         "transdownloadurl": "https://www.gitbook.com/book/lenkimo/byte-of-python-chinese-edition/"
     },
     "plugins": [
-        "betterchinese"
+        "betterchinese",
+        "anchors-zhcn"
     ],
     "pluginsConfig": {}
 }
