@@ -1,32 +1,6 @@
 {
-    "variables": {
-        "buyBookUrl": "http://www.swaroopch.com/buybook/",
-        "officialUrl": "http://python.swaroopch.com/",
-        "authorUrl": "http://www.swaroopch.com/about/",
-        "downloadUrl": "https://www.gitbook.com/book/swaroopch/byte-of-python/details",
-        "vimBookUrl": "http://vim.swaroopch.com/",
-        "transsourceurl": "https://github.com/LenKiMo/byte-of-python",
-        "contactUrl": "http://www.swaroopch.com/contact/",
-        "sourceUrl": "https://github.com/swaroopch/byte-of-python",
-        "sctransUrl": "https://bop.molun.net",
-        "translator": "https://molun.net",
-        "pythonVersion": "3.5.1",
-        "transdownloadurl": "https://www.gitbook.com/book/lenkimo/byte-of-python-chinese-edition/"
-    },
     "plugins": [
-        "betterchinese",
-        "anchors-zhcn"
+        "betterchinese"
     ],
     "pluginsConfig": {}
-    "pdf": {
-       "pageNumbers": true,
-       "fontSize": 18,
-       "fontFamily":"Source Han Sans","Microsoft YaHei","微软雅黑",
-      "paperSize": "a4",
-      "margin": {
-      "right": 30,
-      "left": 30,
-      "top": 30,
-      "bottom": 50
-    }
 }
