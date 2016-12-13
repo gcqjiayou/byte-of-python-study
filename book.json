@@ -2,7 +2,7 @@
     "plugins": [
         "betterchinese"
     ],
-    "pluginsConfig": {}，
+    "pluginsConfig": {},
      "variables": {
         "authorUrl": "http://www.swaroopch.com/about/",
         "buyBookUrl": "http://www.swaroopch.com/buybook/",
