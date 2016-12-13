@@ -1,5 +1,9 @@
 {
-    "variables": {
+    "plugins": [
+        "betterchinese"
+    ],
+    "pluginsConfig": {},
+     "variables": {
         "authorUrl": "http://www.swaroopch.com/about/",
         "buyBookUrl": "http://www.swaroopch.com/buybook/",
         "contactUrl": "http://www.swaroopch.com/contact/",
@@ -13,4 +17,5 @@
         "transdownloadurl": "https://www.gitbook.com/book/lenkimo/byte-of-python-chinese-edition/",
         "transsourceurl": "https://github.com/LenKiMo/byte-of-python"
     }
+
 }
