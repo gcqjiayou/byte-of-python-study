@@ -10,7 +10,8 @@
 * [基础](07.basics.md)
 * [运算符与表达式](08.op_exp.md)
 * [控制流](09.control_flow.md)
+* [函数](10.functions.md)
 
 * [附录：翻译](23.translations.md)
-* [附录：如何翻译](24.translation_howto.md)
-* [反馈](25.feedback.md)
+* [附录：如何翻译](24.Translation-how-to.md)
+* [反馈](25.Feedback.md)
