@@ -12,6 +12,9 @@
 * [控制流](09.control_flow.md)
 * [函数](10.functions.md)
 
+* [附录：FLOSS](20.floss.md)
+* [附录：版本变迁](21.about.md)
+* [附录：本书由来与修订历史](22.revision_history.md)
 * [附录：翻译](23.translations.md)
 * [附录：如何翻译](24.Translation-how-to.md)
 * [反馈](25.Feedback.md)

@@ -1,11 +1,11 @@
 def total(a=5, *numbers, **phonebook):
     print('a', a)
-    
-    #iterate through all the items in tuple
+
+    #遍历元组中的所有项目
     for single_item in numbers:
         print('single_item', single_item)
-        
-    #iterate through all the items in dictionary    
+
+    #遍历字典中的所有项目
     for first_part, second_part in phonebook.items():
         print(first_part,second_part)
 

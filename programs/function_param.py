@@ -6,11 +6,11 @@ def print_max(a, b):
     else:
         print(b, 'is maximum')
 
-# directly pass literal values
+# 直接传递字面值
 print_max(3, 4)
 
 x = 5
 y = 7
 
-# pass variables as arguments
+# 以参数的形式传递变量
 print_max(x, y)

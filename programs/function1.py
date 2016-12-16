@@ -1,7 +1,7 @@
 def say_hello():
-    # block belonging to the function
+    # 该块属于这一函数
     print('hello world')
-# End of function
+# 函数结束
 
-say_hello()  # call the function
-say_hello()  # call the function again
+say_hello()  # 调用函数
+say_hello()  # 再次调用函数
