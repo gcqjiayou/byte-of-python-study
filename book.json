@@ -16,9 +16,6 @@
         "translator": "https://molun.net",
         "transdownloadurl": "https://www.gitbook.com/book/lenkimo/byte-of-python-chinese-edition/",
         "transsourceurl": "https://github.com/LenKiMo/byte-of-python"
-    },
-    "pdf.fontFamily":{
-        "fonts-moe-standard-song"
     }
 
 }
