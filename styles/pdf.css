@@ -1,1 +1,9 @@
 /* CSS for pdf */
+
+.page {
+    .section {
+        h1 {
+            font-size: 20px;
+        }
+    }
+}

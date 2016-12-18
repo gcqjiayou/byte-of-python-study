@@ -11,6 +11,7 @@
 * [运算符与表达式](08.op_exp.md)
 * [控制流](09.control_flow.md)
 * [函数](10.functions.md)
+* [模块](11.modules.md)
 
 * [附录：FLOSS](20.floss.md)
 * [附录：版本变迁](21.about.md)
