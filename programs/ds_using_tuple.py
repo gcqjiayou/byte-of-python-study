@@ -1,7 +1,7 @@
-# I would recommend always using parentheses
-# to indicate start and end of tuple
-# even though parentheses are optional.
-# Explicit is better than implicit.
+# 我会推荐你总是使用括号
+# 来指明元组的开始与结束
+# 尽管括号是一个可选选项。
+# 明了胜过晦涩，显式优于隐式。
 zoo = ('python', 'elephant', 'penguin')
 print('Number of animals in the zoo is', len(zoo))
 

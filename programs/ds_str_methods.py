@@ -1,4 +1,4 @@
-# This is a string object
+# 这是一个字符串对象
 name = 'Swaroop'
 
 if name.startswith('Swa'):

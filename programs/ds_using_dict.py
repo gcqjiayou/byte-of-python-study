@@ -9,7 +9,7 @@ ab = {
 
 print("Swaroop's address is", ab['Swaroop'])
 
-# Deleting a key-value pair
+# 删除一对键值—值配对
 del ab['Spammer']
 
 print('\nThere are {} contacts in the address-book\n'.format(len(ab)))
@@ -17,7 +17,7 @@ print('\nThere are {} contacts in the address-book\n'.format(len(ab)))
 for name, address in ab.items():
     print('Contact {} at {}'.format(name, address))
 
-# Adding a key-value pair
+# 添加一对键值—值配对
 ab['Guido'] = 'guido@python.org'
 
 if 'Guido' in ab:
