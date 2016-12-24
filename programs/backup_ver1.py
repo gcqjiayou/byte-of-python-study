@@ -1,37 +1,37 @@
 import os
 import time
 
-# 1. The files and directories to be backed up are
-# specified in a list.
-# Example on Windows:
+# 1. 需要备份的文件与目录将被
+# 指定在一个列表中。
+# 例如在 Windows 下：
 # source = ['"C:\\My Documents"', 'C:\\Code']
-# Example on Mac OS X and Linux:
+# 又例如在 Mac OS X 与 Linux 下：
 source = ['/Users/swa/notes']
-# Notice we had to use double quotes inside the string
-# for names with spaces in it.
+# 在这里要注意到我们必须在字符串中使用双引号
+# 用以括起其中包含空格的名称。
 
-# 2. The backup must be stored in a
-# main backup directory
-# Example on Windows:
+#2. 备份文件必须存储在一个
+#主备份目录中
+#例如在 Windows 下：
 # target_dir = 'E:\\Backup'
-# Example on Mac OS X and Linux:
+# 又例如在 Mac OS X 和 Linux 下：
 target_dir = '/Users/swa/backup'
-# Remember to change this to which folder you will be using
+# 要记得将这里的目录地址修改至你将使用的路径
 
-# 3. The files are backed up into a zip file.
-# 4. The name of the zip archive is the current date and time
+# 3. 备份文件将打包压缩成 zip 文件。
+# 4. zip 压缩文件的文件名由当前日期与时间构成。
 target = target_dir + os.sep + \
          time.strftime('%Y%m%d%H%M%S') + '.zip'
 
-# Create target directory if it is not present
+# 如果目标目录还不存在，则进行创建
 if not os.path.exists(target_dir):
-    os.mkdir(target_dir)  # make directory
+    os.mkdir(target_dir)  # 创建目录
 
-# 5. We use the zip command to put the files in a zip archive
+# 5. 我们使用 zip 命令将文件打包成 zip 格式
 zip_command = 'zip -r {0} {1}'.format(target,
                                       ' '.join(source))
 
-# Run the backup
+# 运行备份
 print('Zip command is:')
 print(zip_command)
 print('Running:')

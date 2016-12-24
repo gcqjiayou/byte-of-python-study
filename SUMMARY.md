@@ -13,6 +13,7 @@
 * [函数](10.functions.md)
 * [模块](11.modules.md)
 * [数据结构](12.data_structures.md)
+* [解决问题](13.problem_solving.md)
 
 * [附录：FLOSS](20.floss.md)
 * [附录：版本变迁](21.about.md)

@@ -306,4 +306,4 @@
 
 ## 在你使用的语言下阅读本书
 
-如果你有意在其他人类语言下阅读本书，或为本书提供翻译，请参阅[翻译](./23.translation.md)与[如何翻译](./24.Translation-how-to.md#translation-howto)。
+如果你有意在其他人类语言下阅读本书，或为本书提供翻译，请参阅[翻译](./23.translations.md)与[如何翻译](./24.Translation-how-to.md#translation-howto)。
