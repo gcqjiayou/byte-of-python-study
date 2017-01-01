@@ -16,7 +16,10 @@
 * [解决问题](13.problem_solving.md)
 * [面向对象编程](14.oop.md)
 * [输入与输出](15.io.md)
-
+* [异常](16.exceptions.md)
+* [标准库](17.stdlib.md)
+* [更多](18.more.md)
+* [迈出下一步](19.what_next.md)
 * [附录：FLOSS](20.floss.md)
 * [附录：版本变迁](21.about.md)
 * [附录：本书由来与修订历史](22.revision_history.md)
