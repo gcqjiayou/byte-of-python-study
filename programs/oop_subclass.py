@@ -1,17 +1,19 @@
+# coding=UTF-8
+
 class SchoolMember:
-    '''Represents any school member.'''
+    '''代表任何学校里的成员。'''
     def __init__(self, name, age):
         self.name = name
         self.age = age
         print('(Initialized SchoolMember: {})'.format(self.name))
 
     def tell(self):
-        '''Tell my details.'''
+        '''告诉我有关我的细节。'''
         print('Name:"{}" Age:"{}"'.format(self.name, self.age), end=" ")
 
 
 class Teacher(SchoolMember):
-    '''Represents a teacher.'''
+    '''代表一位老师。'''
     def __init__(self, name, age, salary):
         SchoolMember.__init__(self, name, age)
         self.salary = salary
@@ -23,7 +25,7 @@ class Teacher(SchoolMember):
 
 
 class Student(SchoolMember):
-    '''Represents a student.'''
+    '''代表一位学生。'''
     def __init__(self, name, age, marks):
         SchoolMember.__init__(self, name, age)
         self.marks = marks
@@ -36,10 +38,10 @@ class Student(SchoolMember):
 t = Teacher('Mrs. Shrividya', 40, 30000)
 s = Student('Swaroop', 25, 75)
 
-# prints a blank line
+# 打印一行空白行
 print()
 
 members = [t, s]
 for member in members:
-    # Works for both Teachers and Students
+    # 对全体师生工作
     member.tell()

@@ -4,5 +4,5 @@ class Person:
 
 p = Person()
 p.say_hi()
-# The previous 2 lines can also be written as
+# 前面两行同样可以写作
 # Person().say_hi()

@@ -10,9 +10,9 @@ source = ['/Users/swa/notes']
 # 在这里要注意到我们必须在字符串中使用双引号
 # 用以括起其中包含空格的名称。
 
-#2. 备份文件必须存储在一个
-#主备份目录中
-#例如在 Windows 下：
+# 2. 备份文件必须存储在一个
+# 主备份目录中
+# 例如在 Windows 下：
 # target_dir = 'E:\\Backup'
 # 又例如在 Mac OS X 和 Linux 下：
 target_dir = '/Users/swa/backup'

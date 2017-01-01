@@ -1,5 +1,7 @@
+# encoding=UTF-8
+
 class ShortInputException(Exception):
-    '''A user-defined exception class.'''
+    '''一个由用户定义的异常类'''
     def __init__(self, length, atleast):
         Exception.__init__(self)
         self.length = length
@@ -9,7 +11,7 @@ try:
     text = input('Enter something --> ')
     if len(text) < 3:
         raise ShortInputException(len(text), 3)
-    # Other work can continue as usual here
+    # 其他工作能在此处继续正常运行
 except EOFError:
     print('Why did you do an EOF on me?')
 except ShortInputException as ex:

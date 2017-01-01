@@ -4,7 +4,7 @@
 
 《Byte of Python》是一本由 **Swaroop C H** 编写，旨在于介绍如何使用 Python 语言进行编程的自由图书。它以教材与指南的形式为入门者介绍 Python 语言。如果你对电脑知识的了解仅限于如何保存文本文件的话，那这本书就是为你准备的。
 
-2005 年，**沈洁元**将本书的 1.20 版引进中国，并完成了全本翻译，将本书的译名定为《简明 Python 教程》。2016年，**漠伦**基于原书 4.0 版重新翻译，制作了本版全新译本，并沿用同样的译名。
+2005 年，**沈洁元**将本书的 1.20 版引进中国，并完成了全本翻译，将本书的译名定为《简明 Python 教程》。2017年，**漠伦**基于原书 4.0 版重新翻译，制作了本版全新译本，并沿用同样的译名。
 
 本版译本定义为 4.0c 版。
 
@@ -300,7 +300,7 @@
 - [EPUB （可在 iPhone、iPad、电子书阅读器上阅读）](https://www.gitbook.com/download/epub/book/lenkimo/byte-of-python-chinese-edition)
 - [Mobi （可在 Kindle 上阅读）](https://www.gitbook.com/download/mobi/book/lenkimo/byte-of-python-chinese-edition)
 
-本书采用 Markdown 进行写作。你可以访问{{ book.transsourceurl }} 以获得本书的源代码内容（用以提交建议、更正或进行重发布）。
+本书采用 Markdown 进行写作。你可以访问 {{ book.transsourceurl }} 以获得本书的源代码内容（用以提交建议、更正或进行重发布）。
 
 本书英文原版可以在 {{ book.officialUrl }} 在线浏览，其源代码内容可以在 {{ book.sourceUrl }} 获得。
 

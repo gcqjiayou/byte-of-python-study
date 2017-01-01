@@ -1,20 +1,22 @@
-class Robot:
-    """Represents a robot, with a name."""
+# coding=UTF-8
 
-    # A class variable, counting the number of robots
+class Robot:
+    """表示有一个带有名字的机器人。"""
+
+    # 一个类变量，用来计数机器人的数量
     population = 0
 
     def __init__(self, name):
-        """Initializes the data."""
+        """初始化数据"""
         self.name = name
         print("(Initializing {})".format(self.name))
 
-        # When this person is created, the robot
-        # adds to the population
+        # 当有人被创建时，机器人
+        # 将会增加人口数量
         Robot.population += 1
 
     def die(self):
-        """I am dying."""
+        """我挂了。"""
         print("{} is being destroyed!".format(self.name))
 
         Robot.population -= 1
@@ -26,14 +28,14 @@ class Robot:
                 Robot.population))
 
     def say_hi(self):
-        """Greeting by the robot.
+        """来自机器人的诚挚问候
 
-        Yeah, they can do that."""
+        没问题，你做得到。"""
         print("Greetings, my masters call me {}.".format(self.name))
 
     @classmethod
     def how_many(cls):
-        """Prints the current population."""
+        """打印出当前的人口数量"""
         print("We have {:d} robots.".format(cls.population))
 
 

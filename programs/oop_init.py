@@ -7,5 +7,5 @@ class Person:
 
 p = Person('Swaroop')
 p.say_hi()
-# The previous 2 lines can also be written as
+# 前面两行同时也能写作
 # Person('Swaroop').say_hi()

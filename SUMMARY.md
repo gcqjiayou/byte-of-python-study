@@ -14,6 +14,8 @@
 * [模块](11.modules.md)
 * [数据结构](12.data_structures.md)
 * [解决问题](13.problem_solving.md)
+* [面向对象编程](14.oop.md)
+* [输入与输出](15.io.md)
 
 * [附录：FLOSS](20.floss.md)
 * [附录：版本变迁](21.about.md)
