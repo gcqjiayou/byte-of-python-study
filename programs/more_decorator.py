@@ -33,8 +33,8 @@ def save_to_database(arg):
     print("This will be automatically retried if exception is thrown.")
     global counter
     counter += 1
-    # This will throw an exception in the first call
-    # And will work fine in the second call (i.e. a retry)
+    # 这将在第一次调用时抛出异常
+    # 在第二次运行时将正常工作（也就是重试）
     if counter < 2:
         raise ValueError(arg)
 

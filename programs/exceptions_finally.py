@@ -4,7 +4,7 @@ import time
 f = None
 try:
     f = open("poem.txt")
-    # Our usual file-reading idiom
+    # 我们常用的文件阅读风格
     while True:
         line = f.readline()
         if len(line) == 0:
@@ -12,7 +12,7 @@ try:
         print(line, end='')
         sys.stdout.flush()
         print("Press ctrl+c now")
-        # To make sure it runs for a while
+        # 为了确保它能运行一段时间
         time.sleep(2)
 except IOError:
     print("Could not find file poem.txt")
