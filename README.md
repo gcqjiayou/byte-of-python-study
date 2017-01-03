@@ -298,7 +298,7 @@
 - [EPUB （可在 iPhone、iPad、电子书阅读器上阅读）](https://www.gitbook.com/download/epub/book/lenkimo/byte-of-python-chinese-edition)
 - [Mobi （可在 Kindle 上阅读）](https://www.gitbook.com/download/mobi/book/lenkimo/byte-of-python-chinese-edition)
 
-上述下载链接由 GitBook 提供。在本书在未来可能会有些许修订与错漏订正，GitBook 将在修正提交后自动生成最新版本。如果你打算下载一份电子书版用来离线阅读，建议隔一段时间后回来看看是否有新版。
+上述下载链接由 GitBook 提供。本书在未来可能会有些许修订，GitBook 将在修订提交后自动生成最新版本。如果你打算下载一份电子书版用来离线阅读，建议隔一段时间后回来看看是否有新版。
 
 本书采用 Markdown 进行写作。你可以访问 {{ book.transsourceurl }} 以获得本书的源代码内容（用以提交建议、更正或进行重发布）。
 
