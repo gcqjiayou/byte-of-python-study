@@ -1,10 +1,10 @@
 # 简明 Python 教程
 
-《Byte of Python》是一本由 **Swaroop C H** 编写，旨在于介绍如何使用 Python 语言进行编程的自由图书。它以教材与指南的形式为入门者介绍 Python 语言。如果你对电脑知识的了解仅限于如何保存文本文件的话，那这本书就是为你准备的。
+《A Byte of Python》是一本由 **Swaroop C H** 编写，旨在于介绍如何使用 Python 语言进行编程的自由图书。它以教材与指南的形式为入门者介绍 Python 语言。如果你对电脑知识的了解仅限于如何保存文本文件的话，那这本书就是为你准备的。
 
 2005 年，**沈洁元**将本书的 1.20 版引进中国，并完成了全本翻译，将本书的译名定为《简明 Python 教程》。2017年，**漠伦**基于原书 4.0 版重新翻译，制作了本版全新译本，并沿用同样的译名。
 
-本版译本定义为 4.0c 版。
+本版译本定义为 4.01c 版。
 
 ## 有关 Python 3
 
@@ -241,7 +241,7 @@
 - [哈佛大学](http://www.people.fas.harvard.edu/~preshman/python_winter.html) 的 Python 编程（Programming With Python） 课程。
 - [利兹大学](http://www.comp.leeds.ac.uk/acom1900/) 的 编程介绍（Introduction to Programming） 课程。
 - [波士顿大学](http://www.cs.bu.edu/courses/cs108/materials.html) 的 应用程序编程介绍（Introduction to Application Programming） 课程。
-- [俄克拉荷马大学](http://gentry.metr.ou.edu/byteofpython/) 的 气象学信息技术技能（Information Technology Skills for Meteorology） 课程。
+- [俄克拉荷马大学](http://gentry.metr.ou.edu/byteofpython/) 的 气象学信息科技技能（Information Technology Skills for Meteorology） 课程。
 - [密歇根州立大学](http://www.msu.edu/~ashton/classes/825/index.html) 的 地理处理（Geoprocessing） 课程。
 - [爱丁堡大学](http://homepages.inf.ed.ac.uk/ewan/masws/) 的 多代理语义 Web 系统（Multi Agent Semantic Web Systems） 课程。
 - [MIT 开放课程项目（MIT OpenCourseWare）](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/references/) 的 计算机科学与编程介绍（Introduction to Computer Science and Programming） 课程。
@@ -297,6 +297,8 @@
 - [PDF （可在电脑上阅读）](https://www.gitbook.com/download/pdf/book/lenkimo/byte-of-python-chinese-edition)
 - [EPUB （可在 iPhone、iPad、电子书阅读器上阅读）](https://www.gitbook.com/download/epub/book/lenkimo/byte-of-python-chinese-edition)
 - [Mobi （可在 Kindle 上阅读）](https://www.gitbook.com/download/mobi/book/lenkimo/byte-of-python-chinese-edition)
+
+上述下载链接由 GitBook 提供。在本书在未来可能会有些许修订与错漏订正，GitBook 将在修正提交后自动生成最新版本。如果你打算下载一份电子书版用来离线阅读，建议隔一段时间后回来看看是否有新版。
 
 本书采用 Markdown 进行写作。你可以访问 {{ book.transsourceurl }} 以获得本书的源代码内容（用以提交建议、更正或进行重发布）。
 
