@@ -2,7 +2,7 @@ shoplist = ['apple', 'mango', 'carrot', 'banana']
 name = 'swaroop'
 
 # Indexing or 'Subscription' operation #
-# 索引或“下标（Subcription）”操作符 #
+# 索引或“下标（Subscription）”操作符 #
 print('Item 0 is', shoplist[0])
 print('Item 1 is', shoplist[1])
 print('Item 2 is', shoplist[2])
